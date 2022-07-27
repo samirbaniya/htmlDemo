@@ -1,0 +1,32 @@
+	.nav{
+		list-style-type: none;
+		margin: 0;
+		padding: 0px;
+		background-color: #333333;
+		overflow: hidden;
+	}
+	li{
+		float: left;
+	}
+	li a{
+		padding: 16px;
+		
+		text-decoration: none;
+		color: antiquewhite;
+		display: block;
+		text-align: center;
+	}
+	li a:hover{
+		background-color: #000000
+	}
+	.full-width{
+	width="100px" height="100px"
+	}
+	.200hun{
+	width="200px" height="200px"
+	}
+	.samr{
+		background-image: url('samir.jpg');
+		margin: 0px 0px;
+		padding: 100px;
+	}
