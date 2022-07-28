@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>this is title</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body style="background-color: #AAA9C5;color: #000000; background-size: cover;" >
+
+			<h2>Form example</h2>
+			<form method="post" action="#">
+			Date:<br>
+			<input type="date" name="date" id="date"><br>
+
+			<label for="Username">Username:</label><br>
+			<input type="text" min="1" max="50" placeholder="Enter your name " name="User" id="Username" value=""><br>
+
+			<label>Email</label><br>
+			<input type="Email" placeholder="Enter name" name="email" id="email"><br>
+
+			<label>Password</label><br>
+			<input type="password" name="password" id="password"><br>
+
+			<label>Role</label>
+			<select name="Role" id="Role">
+				<option disabled>--choose--</option>
+				<option value="Superadmin">Superadmin</option>
+				<option value="Admin">Admin</option>
+			</select><br><br>
+
+			<label>Gender</label>
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female<br><br>
+
+			<label>Skill</label>
+			<input type="checkbox" name="skill" value="PHP">PHP
+			<input type="checkbox" name="skill" value="HTML">HTML
+			<input type="checkbox" name="skill" value="css">CSS
+			<input type="checkbox" name="skill" value="javascript">JAVASCRIPT<br><br>
+
+			<label>Favorite programming language</label>
+			<select name="prog.language" id="prog.language">
+				<option value="c+" name="c+" >c+</option>
+				<option value="c++" name="c++" >c++</option>
+				<option value="python" name="python" >python</option>
+			</select>
+
+			<br><br>
+
+			<label>Remarks</label><br>
+			<textarea name="remarks" id="remarks" rows="5" cols="50"></textarea>
+			<br>
+
+			<input class="btn" type="submit" value="submit"><br>
+
+			</form>
+
+<div class="row">
+
+<p id="current_date"> </p>
+<button id="getDate" onclick="getDate()">Click current Date</button>
+
+</div>
+			<script type="js/external.js"></script>
+			<script type="text/javascript">
+				var a=1;
+				var b=2;
+				var c = a + b;
+				
+
+				function getDate(){
+					var date = new Date();
+					var par = document.getElementById("current_date")
+				par.innerHTML = date
+				par.style.color="green"
+				}
+			</script>
+
+</body>
+</html>
