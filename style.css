@@ -57,10 +57,12 @@
 	right: 45%;
 }
 
-.btn{
+.btn:hover{
 	background-color: skyblue;
     color: black;
     padding: 10px;
     margin: 10px;
-    width: 75%;
+    width: 60px;
+
 }
+
