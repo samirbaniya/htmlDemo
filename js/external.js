@@ -7,5 +7,19 @@
 					var date = new Date();
 					var par = document.getElementById("current_date");
 					par.innerHTML = date;
-					par.style.color="green"
+					par.style.color="green";
+				}
+
+				function getEmail(){
+					var email = document.getElementById("email").value;
+					var name = document.getElementById("Username").value;
+					var password = document.getElementById("password").value;
+					document.getElementById("getemail").innerHTML="Your email is:"+email 
+					+ "<br>Your username is:"+name+"<br>Your password is:"+password;
+
+
+
+
+					
+					console.log(email);
 				}
