@@ -15,10 +15,10 @@
 			<input type="date" name="date" id="date"><br>
 
 			<label for="Username">Username:</label><br>
-			<input type="text" min="1" max="50" placeholder="Enter your name " name="User" id="Username" value=""><br>
+			<input type="text" min="1" max="50" placeholder="Enter your name " name="User" id="Username" value="" required><br>
 
 			<label>Email</label><br>
-			<input type="Email" placeholder="Enter name" name="email" id="email"><br>
+			<input type="Email" placeholder="Enter name" name="email" id="email" required><br>
 
 			<label>Password</label><br>
 			<input type="password" name="password" id="password"><br>
@@ -56,15 +56,17 @@
 			<input class="btn" type="submit" value="submit"><br>
 
 			</form>
+		</div>
 
 <div class="row">
 
 <p id="current_date"> </p>
 <button id="getDate" onclick="getDate()">Click current Date</button>
 
-</div>
-			<script src="js/external.js"></script>
-</div>
+<p id="getchoice"></p>
+<button id="displaydate" onclick="getchoices()">Click to get choices and dates</button>
+
+
 
 	<pre style="text-align: left;">
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -81,10 +83,21 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</pre>
+</div>
 
 <p id="getemail"> </p>
-<button id="mail" onclick="getEmail()">Click to get email</button>
+<button id="displaymail" onclick="getEmail()">Click to get email</button>
 
+
+<p id="getPerson"> </p>
+<button id="displayperson" onclick="getPersonData()">Click to get person data</button>
+
+
+
+
+</div>
+			<script src="js/external.js"></script>
+</div>
 
 </body>
 </html>
