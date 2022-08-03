@@ -92,8 +92,8 @@ switch(new Date().getDay()){
 	case 6:
 	day="Saturday";
 }
-alert("Today is"+day);
-document.getElementById("day").innerHTML="Today is"+day;
+alert("Today is "+day);
+document.getElementById("day").innerHTML="Today is "+day;
 console.log(day);
 
 function displayNameFiveTimes(){
