@@ -1,7 +1,7 @@
 	body{
 		style="background-color: #ffffff;
 		color: #000000;
-		background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+		background-image: url('backg2.jpg');
 		 background-repeat: no-repeat; 
 		background-size: cover;"
 	}
@@ -123,4 +123,9 @@ em{
 	 height: 1%;
 	 width: 1%;
 	 margin-bottom:1%;
+	 color: black;
+}
+.logon{
+	text-decoration: none;
+	 color: #1a2350;
 }
