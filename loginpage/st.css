@@ -1,0 +1,259 @@
+body{
+	background-image: url('backg3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main{
+	width: 100%;
+}
+.backgvideo{
+	position: absolute;
+	left: 0%;
+	top:0%;
+	width: 100%;
+	z-index: -1;
+}
+.nistlogo{
+	position: absolute;
+	left: 0;
+	top:0;
+	height: 15%;
+}
+.nistlogo:hover{
+	position: absolute;
+	left: 0;
+	top:0;
+	height: 15%;
+	background-color: rgba(0.5,.25,0.5,0.2);
+}
+.logo{
+	height: 90%;
+	width: 90%;
+}
+.search{
+	position: absolute;
+	right: 50px;
+	top:98px; 
+	width: 250px;
+	z-index: 2; 
+}
+
+.sborder:hover{
+	border-width: 2px;
+	border-color: blue;
+	padding: 1px;
+}
+.logoutbox{
+	padding-top: 12px;
+	height: 6%;
+}
+.logout{
+	background-color: #78f904e6;
+	float: right;
+	text-decoration: none;
+	color: black;
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.logout:hover{
+	background-color: #81d337e6;
+	border-color: black;
+	border-radius: 10px;
+	padding: 10px;
+}
+	.nav{
+		position: absolute;
+		right: 0px;
+		top: 70px;
+		list-style-type: none;
+		width: 100%;
+		padding: 0px;
+		background-color: #333333;
+		overflow: hidden;
+	}
+	.homeicon{
+		height: 19px;
+		width: 25px;
+	}
+	li{
+		float: left;
+	}
+	li a{
+		padding: 10px;
+		padding-top: 14px;
+		color: antiquewhite;
+		background-color: #333333;
+		text-decoration: none;
+		display: block;
+		text-align: center;
+	}
+	li a:hover{
+		background-color: #555555;
+		height: 23px;
+	}
+.content{
+	margin-top: 130px;
+}
+h1{
+	margin-left: 500px;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	font-size: 50px;
+	color: #000000;
+  animation-name: trnsparent;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes trnsparent {
+  0%{color: #5bf73e;}
+  25%{color: blue;}
+  50%{color: green;}
+  75%{color: orange;}
+  98%{color: black;}
+  100%{color: #5bf73e}
+}
+.htmlimg{
+	height: 210px;
+	width: 220px;
+	margin-left: 100px;
+}
+.htmlimg:hover{
+	height: 210px;
+	width: 220px;
+  position: relative;
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  0% {left: 0px;}
+  50% {left: 70px;}
+  100% {left: 0px;}
+}
+.htmlfont{
+	float: right;
+	margin-top: 70px;
+	margin-right: 300px;
+	font-size: 30px;
+}
+.cssimg{
+	height: 210px;
+	width: 170px;
+	float: right;
+	position: absolute;
+	top: 485px;
+	right: 120px;
+}
+.cssimg:hover{
+	height: 210px;
+	width: 170px;
+	float: right;
+	position: absolute;
+	top: 485px;
+	right: 120px;
+  animation: mymoves 3s;
+}
+
+@keyframes mymoves {
+  0% {right: 120px;}
+  50% {right: 0px;}
+  100%{right: 120px;}
+}
+.cssfont{
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 300px;
+}
+hr{
+	background-color: black;
+	border-color: black;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+.abt{
+	font-size: 35px;
+	position: absolute;
+	right: 0px;
+	top: 700px;
+	background-color: #111111;
+	height: 250px;
+	width: 100%;
+	color: skyblue;
+}
+
+.implinks{
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: left;
+}
+.links{
+	text-align: center;
+	margin-left: 300px;
+	padding-left: 20px;
+}
+.fbimg{
+	height: 30px;
+	width: 52px;
+	background-color: #1877f2;
+	padding: 5px;
+	border-radius: 80px;
+}
+.fbimg:hover{
+	height: 30px;
+	width: 52px;
+	background-color: #034cab;
+	border-radius: 80px;
+}
+.ytimg{
+	height: 40px;
+	width: 52px;
+	background-color: #fb0000;
+	border-radius: 8px;
+}
+.ytimg:hover{
+	height: 40px;
+	width: 52px;
+	background-color: #b70402;
+
+}
+.rlgo{
+	float: right;
+	top:120px;
+	text-decoration: none;
+	color: white;
+	padding: 4px;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: #0f3203;
+}
+.rlgo:hover{
+	float: right;
+	top:120px;
+	text-decoration: none;
+	color: white;
+	padding: 4px;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: #8e9709;
+}
+.btn:hover{
+	color: blue;
+}
+.Location{
+	position: absolute;
+	right: 350px;
+	top:0px;
+	font-size: 22px;
+	color: #c1bc32;
+	margin-top: 0px;
+}
+.map{
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px; 
+}
